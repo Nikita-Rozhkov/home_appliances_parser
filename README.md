@@ -59,5 +59,5 @@ delonghi_coffee.run()
 ```
 Парсер работает в консоли. На рисунке можно видеть вид экрана при работе парсера.
 ![Процесс парсинга веб-страницы](https://raw.githubusercontent.com/Nikita-Rozhkov/home_appliances_parser/main/images/parse_image_4.jpg)
-
-
+После работы парсера можно проверить содержимое папки (`output_path`), в которую он сохранил спецификацию и описание продукта в формате *Excel*, а также изображения продукта в папке `images`. На следующем рисунке можно посмотреть результаты работы парсера.
+![Результаты парсинга веб-страницы](https://raw.githubusercontent.com/Nikita-Rozhkov/home_appliances_parser/main/images/parse_image_3.jpg)
