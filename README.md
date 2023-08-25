@@ -7,8 +7,8 @@
 В данном репозитории содержится парсер *(см. рисунки ниже)*, который собирает информацию о **бытовой технике с сайта производителя**. Он позволяет сохранить изображения продукта в формате **JPEG**, спецификацию и описание продукта в виде **электронной таблицы Excel**. Данное решение может быть полезно для людей и компаний, занимающихся подготовкой контента для описания товаров в Интернет-магазинах.
 
 *По данной ссылке можно ознакомиться с примерами использования парсера:* https://colab.research.google.com/drive/1BO_yd30WXEH2Nk_L3J6_BlrCMxcfYxuw?usp=sharing
-![Парсинг изображений продукта](https://github.com/Nikita-Rozhkov/white_goods_parser/blob/main/images/parse_image_1.jpg?raw=true)
-![Парсинг текстовой информации](https://github.com/Nikita-Rozhkov/white_goods_parser/blob/main/images/parse_image_2.jpg?raw=true)
+![Парсинг изображений продукта](https://raw.githubusercontent.com/Nikita-Rozhkov/home_appliances_parser/main/images/parse_image_1.jpg)
+![Парсинг текстовой информации](https://raw.githubusercontent.com/Nikita-Rozhkov/home_appliances_parser/main/images/parse_image_2.jpg)
 ## Состав репозитория
 - `parse_pipelines.py` - содержит класс `ParseWG`, который используется для запуска и работы парсера
 - `parsers.py` - содержит функции-парсеры для извлечения информации с сайтов определённых производителей. В данном случае поддерживаются следующие производители: *Haier, Delonghi, Candy, Hisense*
@@ -58,6 +58,6 @@ delonghi_coffee = parse_pipelines.ParseWG(url, headers, output_path, parser, par
 delonghi_coffee.run()
 ```
 Парсер работает в консоли. На рисунке можно видеть вид экрана при работе парсера.
-![Процесс парсинга веб-страницы](https://github.com/Nikita-Rozhkov/white_goods_parser/blob/main/images/parse_image_2.jpg?raw=true)
+![Процесс парсинга веб-страницы](https://raw.githubusercontent.com/Nikita-Rozhkov/home_appliances_parser/main/images/parse_image_4.jpg)
 
 
