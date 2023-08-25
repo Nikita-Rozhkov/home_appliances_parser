@@ -49,7 +49,7 @@ import parsers
 url = 'https://www.delonghi.com/en-gb/epam960-75-glm-maestosa-automatic-coffee-maker/p/EPAM960.75.GLM'        # адрес веб-страницы
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0"}    # заголовки
 output_path = 'results/EPAM96075GLM'                                                                          # путь, по которому будут сохранены данные
-parser = parsers.delonghi                                                                                             # функция-парсер для извлечения информации
+parser = parsers.delonghi                                                                                     # функция-парсер для извлечения информации
 part_number = 'EPAM96075GLM'                                                                                  # номер или модель продукта
 ```
 Запуск скрипта осуществляется с помощью класса `ParseWG`, в который передаются указанные выше параметры.
